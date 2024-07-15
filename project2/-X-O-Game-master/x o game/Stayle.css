@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    background-color: black;
+}
+
+.title{
+    height: 10vh;
+    width: 100%;
+    
+}
+.gaime{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+    box-shadow: 1px white;
+ }
+ .title{
+
+    background: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+ }
+ span{
+    color: rgb(247, 231, 11);
+}
+.squire{
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.squire:hover{
+    background: rgb(12, 12, 12);
+    cursor: pointer;
+}
